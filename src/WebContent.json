@@ -1,0 +1,77 @@
+{
+	"headings": [
+		"CV",
+		"Om Mig",
+		"Portfolio",
+		"linkedIn",
+		"Godt",
+		"Skidt"
+	],
+	"classnames": [
+		"none",
+		"closed",
+		"opened",
+		"divText",
+		"wrapper"
+	],
+	"idnames": [
+		"none",
+		"open",
+		"wrapper",
+		"close"
+	],
+	"modalContent": 
+		{
+			"img": [
+				"../assets/about-portrait-size-example.jpg", 
+				"../assets/about-portrait-size-example.jpg"
+			],
+			"text": [
+				"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit commodo ante, vel lacinia arcu iaculis sed. Nam a interdum erat. Sed a tellus nunc. Fusce in mattis enim. Suspendisse cursus diam sed tortor efficitur, ac tempus erat sollicitudin. Proin risus turpis, ultricies quis lacus id, lacinia vehicula libero. Donec egestas augue vel ante sollicitudin, in pellentesque mauris euismod. Sed ut congue metus, et semper erat. Vivamus vitae pulvinar leo.<br><br>Nullam auctor leo non sem egestas rhoncus. Curabitur lobortis finibus arcu, ac varius eros tristique vel. Sed pellentesque ut libero non laoreet. Phasellus fermentum viverra facilisis. Nulla vulputate accumsan orci. Integer et felis tellus. Donec nisl justo, blandit nec enim in, consectetur commodo dui. Suspendisse non felis porttitor, finibus tellus sed, semper odio. Maecenas mollis tristique ligula sed porta. Aliquam eget tellus diam. Aliquam scelerisque, justo et rutrum posuere, metus metus porttitor nibh, ut commodo sem turpis id nulla.<br><br>Vivamus in turpis sed nisi fermentum volutpat in vitae turpis. In sed dui ac dui pellentesque euismod eu vel quam. Quisque nec turpis varius, malesuada dui ut, tincidunt est. Donec at massa orci. Donec a tempor nulla. Morbi at enim ac lacus condimentum sodales eget non dolor. Cras nec urna a tortor dictum scelerisque sit amet sed tortor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse interdum scelerisque justo, vitae maximus velit gravida vel.",
+				"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit commodo ante, vel lacinia arcu iaculis sed. Nam a interdum erat. Sed a tellus nunc. Fusce in mattis enim. Suspendisse cursus diam sed tortor efficitur, ac tempus erat sollicitudin. Proin risus turpis, ultricies quis lacus id, lacinia vehicula libero. Donec egestas augue vel ante sollicitudin, in pellentesque mauris euismod. Sed ut congue metus, et semper erat. Vivamus vitae pulvinar leo.<br><br>Nullam auctor leo non sem egestas rhoncus. Curabitur lobortis finibus arcu, ac varius eros tristique vel. Sed pellentesque ut libero non laoreet. Phasellus fermentum viverra facilisis. Nulla vulputate accumsan orci. Integer et felis tellus. Donec nisl justo, blandit nec enim in, consectetur commodo dui. Suspendisse non felis porttitor, finibus tellus sed, semper odio. Maecenas mollis tristique ligula sed porta. Aliquam eget tellus diam. Aliquam scelerisque, justo et rutrum posuere, metus metus porttitor nibh, ut commodo sem turpis id nulla.<br><br>Vivamus in turpis sed nisi fermentum volutpat in vitae turpis. In sed dui ac dui pellentesque euismod eu vel quam. Quisque nec turpis varius, malesuada dui ut, tincidunt est. Donec at massa orci. Donec a tempor nulla. Morbi at enim ac lacus condimentum sodales eget non dolor. Cras nec urna a tortor dictum scelerisque sit amet sed tortor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse interdum scelerisque justo, vitae maximus velit gravida vel.",
+				"",
+				"",
+				"<li>At udtænke et design, og komme igang med at udføre det relativt hurtigt</li><br><li>Finde på små idéer til at få projektet til at se mere livlig ud</li><br><li>Når jeg stødte på problemer, synes jeg, at jeg var god til ikke at give op, og løse problemet i stedet for at give op</li>",
+				"<li>Det gik skidt i løbet af slutningen af projektet, da jeg blev lidt udkørt</li><br><li>Løb også tør for idéer at implementere, og dermed blev min arbejdshastighed og moral ned i de sidste par dage</li><br><li>Det der var virkelig skidt og/eller ærgerligt, var størstedelen af mine problemer jeg stødte på, var meget problematiske og svære/tidskrævende at løse</li>"
+			],
+			"subHeadings": [
+				"Jannick Winther Schmidt",
+				"",
+				"",
+				"",
+				"Hvad Gik Godt?",
+				"Hvad Gik Skidt?"
+			]
+		},
+	
+	"portfolio": [
+		{
+			"img": [
+				"../assets/google.jpg",
+				"../assets/elgiganten.jpg",
+				"../assets/etq.jpg",
+				"../assets/zillow.jpg",
+				"../assets/evrone.jpg",
+				"../assets/activetheory.jpg",
+				"../assets/simplychocolate.jpg",
+				"../assets/koox.jpg",
+				"../assets/franshalsmuseum.jpg"
+			],
+			"href": [
+				"https://google.com/",
+				"https://elgiganten.dk/",
+				"https://www.etq-amsterdam.com/",
+				"https://www.zillow.com/",
+				"https://evrone.com/",
+				"https://activetheory.net/",
+				"https://simplychocolate.dk/",
+				"https://koox.co.uk/",
+				"https://www.franshalsmuseum.nl/nl/"
+			]
+		}
+	],
+	
+	"myNameLetters": [
+		"J","a","n","n","i","c","k"," ","W","i","n","t","h","e","r"," ","S","c","h","m","i","d","t"
+	]
+}

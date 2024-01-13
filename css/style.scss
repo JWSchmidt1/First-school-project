@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&family=Chakra+Petch&family=Teko:wght@300&display=swap');
+
+html {
+  // font-family: 'Cairo', sans-serif;
+  font-family: 'Chakra Petch', sans-serif;
+  // font-family: 'Teko', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: white;
+}
+
+.wrapper {
+  --s: 150px; /* control the size */
+  --g: 10px;  /* control the gap */
+  display: grid;
+  margin: calc(var(--s) + var(--g));
+}
+
+.none {
+  grid-area: 1/1;
+  width: var(--s);
+  aspect-ratio: 1.15;
+  object-fit: cover;
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%,75% 100%,25% 100%,0 50%);
+  transform: translate(var(--_x,0),var(--_y,0)) scale(var(--_t,0));
+  cursor: none;
+  transition: .2s linear;
+  position: relative;
+
+  div {
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    vertical-align: center;
+
+  }
+}
+
+#none0 {
+  background: rgb(78,78,78);
+  background: linear-gradient(180deg, rgba(78,78,78,1) 0%, rgba(91,91,91,1) 50%, rgba(102,102,102,1) 100%);
+}
+
+#none3 {
+  background: rgb(78,78,78);
+  background: linear-gradient(0deg, rgba(78,78,78,1) 0%, rgba(91,91,91,1) 50%, rgba(102,102,102,1) 100%);
+} 
+
+#none1, #none2 {
+  background: rgb(78,78,78);
+  background: linear-gradient(90deg, rgba(78,78,78,1) 0%, rgba(91,91,91,1) 50%, rgba(102,102,102,1) 100%);
+}
+
+#none4, #none5 {
+  background: rgb(78,78,78);
+  background: linear-gradient(270deg, rgba(78,78,78,1) 0%, rgba(91,91,91,1) 50%, rgba(102,102,102,1) 100%);
+}
+
+#open, #close {
+  grid-area: 1/1;
+  width: var(--s);
+  aspect-ratio: 1.15;
+  object-fit: cover;
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%,75% 100%,25% 100%,0 50%);
+  transform: translate(var(--_x,0),var(--_y,0)) scale(var(--_t,1));
+  cursor: none;
+  transition: .2s linear;
+  position: relative;
+  background: rgb(112,112,112);
+  background: radial-gradient(circle, rgba(112,112,112,1) 0%, rgba(102,102,102,1) 50%);
+
+  div {
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    vertical-align: center;
+
+  }
+}
+
+#none0 {--_y: calc(-100% - var(--g))}
+#none3 {--_y: calc( 100% + var(--g))}
+#none1,
+#none2 {--_x: calc(-75% - .87*var(--g))}
+#none5,
+#none4 {--_x: calc( 75% + .87*var(--g))}
+#none1,
+#none5 {--_y: calc(-50% - .5*var(--g))}
+#none2, 
+#none4 {--_y: calc( 50% + .5*var(--g))}
+
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+  background: linear-gradient(to right, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+  background-size: 400% 100%;
+  animation: bg 20s infinite;
+  cursor: none;
+  overflow: hidden;
+}
+
+.block {
+  display: block;
+}
+
+@keyframes bg {
+  0% {
+      background-position: 0% 50%;
+  }
+
+  50% {
+      background-position: 100% 50%;
+  }
+
+  100% {
+      background-position: 0% 50%;
+  }
+}
+
+.subHexContainer {
+  position: absolute;
+  display: none;
+  width: 100%;
+  min-height: 100%;
+  background-color: #000;
+  z-index: 101;
+  opacity: 0;
+}
+
+.subHexContent {
+  position: absolute;
+  display: none;
+  gap: 1rem;
+  grid-auto-rows: minmax(min-content, max-content);
+  width: 80%;
+  min-height: 95%;
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+  z-index: 102;
+  opacity: 0;
+
+  a {
+    width: 80%;
+    justify-self: center;
+    cursor: none;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .subHexContentText {
+    width: 100%;
+    position: relative;
+
+    .cvImg {
+      width: 15%;
+      float: left;
+    }
+    .cvH2 {
+      width: 100%;
+      position: absolute;
+      text-align: center;
+      padding: 0;
+      margin: 0;
+      text-decoration: underline;
+    }
+    .subH2 {
+      width: 100%;
+      position: absolute;
+      text-align: center;
+      padding: 0;
+      margin: 0;
+      text-align: center;
+    }
+    
+    .omMigImg {
+      width: 30%;
+      float: left;
+      margin-right: 30px;
+      margin-bottom: 15px;
+    }
+    .subSubHexContentText {
+      font-weight: 100;
+      margin-top: 40px;
+    }
+  }
+}
+
+.closeSubHex {
+  position: absolute;
+  display: none;
+  opacity: 0;
+  top: 10px;
+  right: 10px;
+  width: 30px;
+  height: 30px;
+  margin: calc(0.3em + 0.3vw);
+  z-index: 103;
+  &:hover {
+    cursor: none;
+  }
+}
+
+.subHexContentHeadings {
+  text-align: center;
+  grid-column: 1/4;
+  grid-row: 1;
+  width: 100%;
+}
+
+.cursor {
+  z-index: 9999;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 30px;
+  line-height: 100px;
+  text-align: center;
+  color: black;
+  pointer-events: none;
+  &:after {
+    content: "\2715";
+  }
+}
+
+#myNameCon {
+  font-family: 'Teko', sans-serif;
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+  justify-content: center;
+
+  #letter, .letter {
+    position: absolute;
+    left: 50%;
+    display: inline-block;
+    font-size: 35px;
+    transform: translate(-50%, -50%);
+  }
+}
