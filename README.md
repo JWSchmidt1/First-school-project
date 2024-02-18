@@ -17,3 +17,4 @@ This website, crafted with vanilla JavaScript, stands as a testament to my early
 **Note:** Explore "My First School Project" to witness the embodiment of our early web development skills and the application of vanilla JavaScript concepts.
 
 Feel free to navigate the website
+**DEMO:** http://schoolproject.jwschmidt.dk/
